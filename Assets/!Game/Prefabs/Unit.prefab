@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 8351401901093270643}
   - component: {fileID: 4203779675763680827}
   - component: {fileID: 7880217894924490136}
-  - component: {fileID: 2014957355668554810}
-  - component: {fileID: -1415905586251613532}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -64,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 3128671d0729bc04dbb7287d55671c01, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,38 +105,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2014957355668554810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5793889831766872303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b244726f899b63a4caf6090fd714d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  damage: 10
-  onDeath:
-    m_PersistentCalls:
-      m_Calls: []
-  onDamageTaken:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &-1415905586251613532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5793889831766872303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44b8e3dcd72c9fe4996515d7e5856bd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRange: 1.5
-  attackCooldown: 1
