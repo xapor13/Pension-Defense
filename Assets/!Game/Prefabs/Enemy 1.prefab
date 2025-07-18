@@ -120,3 +120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   targetPosition: {x: 0, y: 0, z: 0}
+  maxHP: 200
+  currentHP: 0
+  damage: 10
